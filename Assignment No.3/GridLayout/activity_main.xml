@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="4"
+    android:columnCount="3"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Different versions of SmartPhones"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_columnSpan="3"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:src="@drawable/img1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:src="@drawable/img2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:src="@drawable/img3"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:scaleType="centerCrop"/>
+
+
+    <ImageView
+        android:src="@drawable/img4"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:src="@drawable/img5"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:src="@drawable/img6"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:scaleType="centerCrop"/>
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_columnSpan="3"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</GridLayout>
